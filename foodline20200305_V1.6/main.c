@@ -59,7 +59,7 @@ void *Dispatcher_Task_Handle = NULL;
 
 int main(void)
 {
-    RCC_Config();
+    RCC_Config();   //  ±÷”
     
     NVIC_SetVectorTable(NVIC_VectTab_FLASH, INT_VECTOR_TABLE_BASE);
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
